@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HonMérő Admin</title>
+</head>
+<body>
+<button id="block_user">Block User</button><br>
+<h1>Admin</h1><hr>
+<table>
+    <tr>
+        <td>
+            <button id="plus" type="button">+</button><br>
+            <button id="minus" type="button">-</button>
+        </td>
+        <td>
+            <h4>Beállított hőmérséklet:</h4>
+            <div id="hombeall"></div>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <h4 colspan="2">Valós hőmérséklet:</h4>
+            <div id="hom">19,8 °C</div>
+        </td>
+        <td id="btd">
+            <button id="power" class="power_deactive">&#x23FB;</button>
+        </td>
+    </tr>
+</table>
+<script src="myScript.js"></script>
+</body>
+</html>
